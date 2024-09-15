@@ -12,5 +12,3 @@ Wanderlust is an innovative travel website designed to simplify the search for y
 Wanderlust is your gateway to unforgettable travel experiences, offering a seamless and enjoyable journey from search to booking. Embark on your next adventure with us!
 
 ## [Live Demo](https://wander-lust-szwb.onrender.com/)
-## <a href="https://wander-lust-szwb.onrender.com/" target="_blank">Live Demo</a>
-
