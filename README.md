@@ -29,4 +29,32 @@ Wanderlust is your gateway to unforgettable travel experiences, offering a seaml
 
 ## Getting Started
 
-Instructions on how to set up and run the project locally.
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash ```
+   - git clone [https://github.com/SparshMaheshwari15/Wander-lust](https://github.com/SparshMaheshwari15/Wander-lust)
+   - cd wanderlust
+2.  **Install dependencies:**
+    - npm install
+3.  **Set up environment variables:**
+    - PORT=3000
+    - MONGO_URI=your-mongodb-url
+    - CLOUDINARY_URL=your-cloudinary-url
+    - MAPBOX_TOKEN=your-mapbox-token
+4.  **Start the development server:**
+    - npm start
+5.  **Check MongoDB connection:**
+    - Ensure that your MongoDB instance is running and that the connection string (MONGO_URI) in your .env file is correct.
+6.  **View in browser:**
+    - Open your browser and navigate to http://localhost:3000 to view the website.
