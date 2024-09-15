@@ -12,3 +12,21 @@ Wanderlust is an innovative travel website designed to simplify the search for y
 Wanderlust is your gateway to unforgettable travel experiences, offering a seamless and enjoyable journey from search to booking. Embark on your next adventure with us!
 
 ## [Live Demo](https://wander-lust-szwb.onrender.com/)
+
+## Technologies Used
+
+- **Frontend**:
+  - [EJS](https://github.com/mde/ejs) for templating
+  - [Mapbox](https://www.mapbox.com/) for interactive maps
+  - [Cloudinary](https://cloudinary.com/) for image storage and sharing
+- **Backend**:
+  - [Node.js](https://nodejs.org/) for server-side logic
+  - [Express](https://expressjs.com/) for web server framework
+- **Database**:
+  - [MongoDB](https://www.mongodb.com/) for storing listings and user data
+- **Authentication**:
+  - [Passport.js](http://www.passportjs.org/) for managing user authentication
+
+## Getting Started
+
+Instructions on how to set up and run the project locally.
