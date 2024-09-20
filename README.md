@@ -42,20 +42,28 @@ Make sure you have the following installed:
 ### Installation
 
 1. **Clone the repository:**
-   - ``` git clone https://github.com/SparshMaheshwari15/Wander-lust ```
-   - ``` cd wanderlust ```
-2.  **Install dependencies:**
-    - ``` npm install ```
-3.  **Set up environment variables:**
+   - ``` bash
+      git clone https://github.com/SparshMaheshwari15/Wander-lust
+     ```
+   - ``` bash
+     cd wanderlust
+     ```
+3.  **Install dependencies:**
+    - ``` bash
+      npm install
+      ```
+4.  **Set up environment variables:**
     - PORT=3000
     - MONGO_URI=your-mongodb-url
     - CLOUDINARY_URL=your-cloudinary-url
     - MAPBOX_TOKEN=your-mapbox-token
-4.  **Start the development server:**
-    - ``` npm start ```
-5.  **Check MongoDB connection:**
+5.  **Start the development server:**
+    - ``` bash
+      npm start
+      ```
+6.  **Check MongoDB connection:**
     - Ensure that your MongoDB instance is running and that the connection string (MONGO_URI) in your .env file is correct.
-6.  **View in browser:**
+7.  **View in browser:**
     - Open your browser and navigate to http://localhost:3000 to view the website.
   
 ## Contributing
@@ -66,10 +74,16 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 1. **Fork the repository.**
 2. **Create your feature branch:**
-   - ``` git checkout -b feature/my-feature ```
+   - ``` bash
+     git checkout -b feature/my-feature
+     ```
 3. **Commit your changes:**
-   - ``` git commit -m 'Add some feature' ```
+   - ``` bash
+     git commit -m 'Add some feature'
+     ```
 4. **Push to the branch:**
-   - ``` git push origin feature/my-feature ```
+   - ``` bash
+     git push origin feature/my-feature
+     ```
 5. **Open a pull request.**
 
