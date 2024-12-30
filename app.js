@@ -5,7 +5,7 @@ if (process.env.NODE_ENV != "production") {
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
-const port = 3000;
+const port = process.env.PORT;
 const path = require("path");
 const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");
@@ -76,7 +76,7 @@ const store = MongoStore.create({
 });
 
 store.on("error", () => {
-    console.log("ERROR IN MONGO SESSION STORE",err);
+    console.log("ERROR IN MONGO SESSION STORE", err);
 });
 
 const sessionOptions = {
@@ -104,7 +104,8 @@ passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
 app.get("/", (req, res) => {
-    res.send(`Root is working <br> <br> <a href="/listings">Here</a> `);
+    // res.send(`Root is working <br> <br> <a href="/listings">Here</a> `);
+    res.redirect("/listings");
 });
 
 app.use((req, res, next) => {
